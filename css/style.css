@@ -1,0 +1,16 @@
+/* CSS RESETS */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+  height: 100%;
+}
+
+/* Main Styling */
+
+.qr-code {
+  max-width: 200px;
+  margin: 10px;
+}
