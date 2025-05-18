@@ -14,9 +14,9 @@ $(function () {
     // used to generate the QR Code
     // with the given data
     let finalURL =
-      "https://chart.googleapis.com/chart?cht=qr&chl=" +
-      htmlEncode($("#content").val()) +
-      "&chs=160x160&chld=L|0";
+      "https://api.qrserver.com/v1/create-qr-code/?data=" +
+      encodeURIComponent($("#content").val()) +
+      "&size=160x160";
 
     // Replace the src of the image with
     // the QR code image
